@@ -1,4 +1,5 @@
 @import url("reset.css");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&family=Raleway:wght@300;700&display=swap");
 
 * {
   box-sizing: border-box;
@@ -31,6 +32,9 @@ body div.container {
 header {
   width: 100%;
   background-color: var(--black);
+  font-family: "Open Sans", sans-serif;
+  font-weight: 600;
+  font-size: 12px;
 }
 
 main {
@@ -44,9 +48,9 @@ footer {
   background-color: rgba(var(--grey), 0.4);
 }
 
-nav {
+/* nav {
   height: 70px;
-}
+} */
 
 nav ul {
   display: flex;
@@ -66,10 +70,13 @@ nav ul li a {
   color: var(--white);
   text-decoration: none;
   text-transform: uppercase;
-  padding: 21px 0px 21px 24px;
+  padding: 29px 12px 29px 12px;
 }
 
-nav ul li:first-of-type a,
-nav ul li:nth-of-type(2) a {
-  padding-left: 0px;
+nav ul li:first-of-type a {
+  padding: 18.5px 0px 18.5px 0px;
+}
+
+nav ul li:nth-of-type(6) a {
+  padding-right: 0px;
 }
